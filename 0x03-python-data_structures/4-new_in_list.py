@@ -3,7 +3,7 @@
 
 
 def new_in_list(my_list, idx, element):
-    """A function that replace an element in a copied list at a giving  position."""
+    """A function that replace elements in a copied list at a giving  position."""
     if idx < 0 or idx > (len(my_list) - 1):
         return (my_list)
 
